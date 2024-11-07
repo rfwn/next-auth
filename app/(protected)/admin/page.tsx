@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState, useTransition } from 'react';
+import { useEffect, useTransition } from 'react';
 import useFetch from '@/hooks/use-fetch';
 import { Button } from '@/components/ui/button';
 import { RoleGate } from '@/components/auth/role-gate';
